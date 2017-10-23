@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context="com.example.dinasaad.bakingapp.DetailFragment"
+    android:weightSum="1">
+
+    <fragment
+        android:id="@+id/tabletcontainer"
+        android:name="com.example.dinasaad.bakingapp.DetailFragment"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.38"
+        android:orientation="vertical"
+        tools:context="com.example.dinasaad.bakingapp.DetailFragment">
+
+    </fragment>
+
+    <FrameLayout
+        android:id="@+id/head_container"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="0.58"
+        android:scaleType="centerInside" /></LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="restart">Restart</string>
+    <string name="guess">Can you guess the composer?</string>
+    <string name="notification_text">Press play to hear the piece!</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="pref_widget_data" translatable="false">Widget_data</string>
+</resources>
